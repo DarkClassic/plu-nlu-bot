@@ -2,6 +2,8 @@ import telebot
 
 #main variables
 
+TOKEN = "605014854:AAF1HuRNnc0M8VmzZKlPz7rbYV2FSoFkDE4"
+
 bot = telebot.TeleBot(TOKEN)
 
 bot.send_message(341757028, "test")
